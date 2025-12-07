@@ -72,7 +72,7 @@ const Gauge = ({ value, max }) => {
 };
 const QuickSettings = () => {
   return (
-    <div className="bg-white dark:bg-[#101828] p-4 rounded-lg shadow border border-gray-200 dark:border-gray-700 w-full">
+    <div className="bg-white dark:bg-[#101828] p-4 rounded-lg shadow border border-gray-200 dark:border-gray-700 w-full mb-10">
       <div className="flex justify-between items-center mb-6">
         <h3 className="text-lg font-semibold text-gray-700 dark:text-white">
           Quick Settings

@@ -130,7 +130,7 @@ const ProfilePage = () => {
           <img
             src={user.coverImage}
             alt="User Cover"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-contain md:object-cover"
             onError={(e) => {
               e.target.onerror = null;
               e.target.src =
@@ -157,7 +157,7 @@ const ProfilePage = () => {
             </div>
 
             {/* Action Buttons */}
-            <div className="flex space-x-3 p-4 sm:p-0">
+            <div className="flex flex-col mt-25 gap-2 md:flex-row  md:mt-0 space-x-3 p-4 sm:p-0">
               <button className="flex items-center space-x-1 px-4 py-2 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-full text-sm font-medium shadow-md hover:bg-gray-50 dark:hover:bg-gray-600 transition">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

@@ -17,7 +17,7 @@ export default function Navbar() {
   return (
     <header className="w-full h-16 border-b bg-background flex items-center">
       {/* Left: Mobile menu */}
-      <Button variant="ghost" size="icon" className="md:hidden">
+      <Button variant="ghost" size="icon" className="hidden">
         <Menu className="w-5 h-5" />
       </Button>
 
