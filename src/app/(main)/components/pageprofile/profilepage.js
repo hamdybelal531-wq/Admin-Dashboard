@@ -2,11 +2,11 @@
 import React, { useState } from "react";
 
 const MOCK_USER_DATA = {
-  name: "Belal Hamdy",
+  name: "designer_one",
   username: "@alex_vance",
   tagline: "Product Designer & Digital Creator",
   coverImage: "https://placehold.co/1200x300/1E3A8A/ffffff?text=Profile+Cover",
-  avatar: "https://placehold.co/150x150/4F46E5/ffffff?text=BH",
+  avatar: "https://placehold.co/150x150/4F46E5/ffffff?text=D",
   location: "San Francisco, CA",
   joined: "October 2022",
   bio: "Designing interfaces that spark joy. Focused on clean UX, accessibility, and the future of interaction. Let's connect and build something amazing.",

@@ -2,12 +2,12 @@
 import React, { useState } from "react";
 
 const initialAdminData = {
-  firstName: "Belal",
-  lastName: "Hamdy",
-  email: "Belal.hamdy@admin.com",
+  firstName: "designer",
+  lastName: "One",
+  email: "designer_one@admin.com",
   bio: "Web Developer with 10 years of experience in building scalable web applications.",
   role: "Administrator",
-  avatarUrl: "https://placehold.co/150x150/4F46E5/ffffff?text=BH",
+  avatarUrl: "https://placehold.co/150x150/4F46E5/ffffff?text=D",
 };
 const inputDataobj = {
   firstName: initialAdminData.firstName,
